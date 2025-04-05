@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MidPay - Frequently Asked Questions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container" style="display: flex; align-items: center;">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/dark-midtype.png" alt="MidPay Logo" height="45px">
+                </a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="nav-menu" style="display: flex; align-items: center; margin: 0;">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="how-it-works.html">How It Works</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="signup.html" class="btn btn-primary">Join Waitlist</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content animate-on-scroll">
+                <h1>FREQUENTLY ASKED QUESTIONS</h1>
+                <p>Find answers to common questions about MidPay's secure payment platform for construction contractors and homeowners.</p>
+            </div>
+            <div class="hero-image animate-on-scroll">
+                <img src="images/faq-hero.jpg" alt="MidPay FAQ" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%22500%22 height%3D%22300%22 viewBox%3D%220 0 500 300%22%3E%3Crect fill%3D%22%23f5f9ff%22 width%3D%22500%22 height%3D%22300%22%2F%3E%3Ctext fill%3D%22%23666%22 font-family%3D%22sans-serif%22 font-size%3D%2220%22 dy%3D%22.35em%22 text-anchor%3D%22middle%22 x%3D%22250%22 y%3D%22150%22%3EMidPay FAQ%3C%2Ftext%3E%3C%2Fsvg%3E'">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Categories Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>BROWSE BY CATEGORY</h2>
+                <p>Select a category to find the answers you need.</p>
+            </div>
+            
+            <!-- FAQ Category Tabs -->
+            <div style="display: flex; justify-content: center; margin: 3rem 0 2rem; flex-wrap: wrap; gap: 1rem;" class="animate-on-scroll">
+                <button class="faq-tab active" data-tab="general" style="padding: 0.75rem 1.5rem; border: none; background: var(--primary); color: white; border-radius: 50px; cursor: pointer; font-weight: 600;">General</button>
+                <button class="faq-tab" data-tab="contractors" style="padding: 0.75rem 1.5rem; border: none; background: transparent; color: var(--secondary); border-radius: 50px; cursor: pointer; font-weight: 600;">For Contractors</button>
+                <button class="faq-tab" data-tab="homeowners" style="padding: 0.75rem 1.5rem; border: none; background: transparent; color: var(--secondary); border-radius: 50px; cursor: pointer; font-weight: 600;">For Homeowners</button>
+                <button class="faq-tab" data-tab="payments" style="padding: 0.75rem 1.5rem; border: none; background: transparent; color: var(--secondary); border-radius: 50px; cursor: pointer; font-weight: 600;">Payments & Escrow</button>
+                <button class="faq-tab" data-tab="disputes" style="padding: 0.75rem 1.5rem; border: none; background: transparent; color: var(--secondary); border-radius: 50px; cursor: pointer; font-weight: 600;">Disputes & Resolution</button>
+                <button class="faq-tab" data-tab="account" style="padding: 0.75rem 1.5rem; border: none; background: transparent; color: var(--secondary); border-radius: 50px; cursor: pointer; font-weight: 600;">Account & Billing</button>
+            </div>
+            
+            <!-- General FAQs -->
+            <div class="faq-content" id="general-tab" style="display: block;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What is MidPay?</div>
+                        <div class="accordion-content">
+                            <p>MidPay is a secure payment platform specifically designed for the construction industry. We use escrow protection to ensure contractors get paid for completed work and homeowners only pay for quality results. Our milestone-based payment system allows funds to be released incrementally as work is completed and verified, providing security and transparency for all parties involved.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">When will MidPay be available?</div>
+                        <div class="accordion-content">
+                            <p>MidPay is currently in development and will be available for beta testing in Q1 2025 (January-March). Our official launch is scheduled for April 2025. You can join our waitlist now to be among the first to access the platform when it launches. Early adopters will receive special benefits, including 3 months of our Premium Plan at no monthly cost.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How does MidPay make money?</div>
+                        <div class="accordion-content">
+                            <p>MidPay offers two pricing plans: a Premium Plan at $199/month with a 2% escrow fee, and a Free Plan with no monthly fee but a 5% escrow fee. These fees cover the cost of our secure escrow services, payment processing, verification systems, and dispute resolution. We only charge contractors, not homeowners, to keep the platform accessible for all parties.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Is MidPay available in my area?</div>
+                        <div class="accordion-content">
+                            <p>At launch in April 2025, MidPay will be available throughout the United States. We plan to expand to Canada and other international markets in 2026. Our platform is designed to work with any construction project, regardless of location, as long as both the contractor and homeowner have access to standard banking services.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How secure is MidPay?</div>
+                        <div class="accordion-content">
+                            <p>Security is our top priority. All funds are held in FDIC-insured escrow accounts with bank-level encryption and security. Our platform uses industry-standard encryption for all data transmission and storage. We comply with all relevant financial regulations and undergo regular security audits to ensure the highest level of protection for your funds and information.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Who can use MidPay?</div>
+                        <div class="accordion-content">
+                            <p>MidPay is designed for construction contractors of all sizes (from solo operators to large companies) and homeowners. Our platform is particularly valuable for residential construction, renovations, remodeling, and specialty trades. While our primary focus is on contractor-homeowner relationships, the platform can also be used for contractor-business relationships in commercial construction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- For Contractors FAQs -->
+            <div class="faq-content" id="contractors-tab" style="display: none;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How do I sign up as a contractor?</div>
+                        <div class="accordion-content">
+                            <p>You can join our waitlist now by visiting the Sign Up page and selecting the "Contractor" option. Once MidPay launches in April 2025, you'll be able to create your account, complete your contractor profile, verify your business credentials, connect your payment methods, and start creating project agreements with your clients.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What does MidPay cost for contractors?</div>
+                        <div class="accordion-content">
+                            <p>MidPay offers two pricing plans for contractors:</p>
+                            <ul>
+                                <li><strong>Premium Plan:</strong> $199/month with a 2% escrow fee. This plan is ideal for contractors with regular projects and includes advanced features like CRM integrations, detailed reporting, and priority support.</li>
+                                <li><strong>Free Plan:</strong> No monthly fee with a 5% escrow fee. This plan is perfect for contractors who are just getting started or have occasional projects.</li>
+                            </ul>
+                            <p>Early adopters who join our waitlist will receive 3 months of the Premium Plan at no monthly cost when we launch.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How quickly will I receive payment through MidPay?</div>
+                        <div class="accordion-content">
+                            <p>Once a milestone is verified as complete and approved by the homeowner, payment is released from escrow to your account within 24 hours. This is significantly faster than the industry average of 45+ days for construction payments. You can choose to have funds deposited directly to your bank account or held in your MidPay account for future use.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How do I convince clients to use MidPay?</div>
+                        <div class="accordion-content">
+                            <p>Many contractors find that offering MidPay as a payment option actually helps them win more business. Homeowners appreciate the transparency, security, and milestone-based approach. We provide marketing materials that explain the benefits to homeowners, including protection from incomplete work and clear expectations for what they're paying for at each stage.</p>
+                            <p>You can also emphasize that MidPay is free for homeowners to use—they only pay the agreed-upon project cost with no additional fees. The platform provides them with peace of mind and protection for their investment.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What types of projects can I use MidPay for?</div>
+                        <div class="accordion-content">
+                            <p>MidPay can be used for virtually any type of construction project, including:</p>
+                            <ul>
+                                <li>Home renovations and remodels</li>
+                                <li>New construction</li>
+                                <li>Kitchen and bathroom remodels</li>
+                                <li>Additions and extensions</li>
+                                <li>Outdoor projects (decks, patios, landscaping)</li>
+                                <li>Specialty work (electrical, plumbing, roofing, etc.)</li>
+                                <li>Commercial construction projects</li>
+                            </ul>
+                            <p>The platform is flexible enough to accommodate projects of any size, from small repairs to large-scale construction.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Can I use MidPay with subcontractors?</div>
+                        <div class="accordion-content">
+                            <p>Yes! In Q4 2025, we'll be launching advanced features specifically for subcontractor management. This will allow general contractors to create milestone-based payment agreements with their subcontractors, ensuring everyone in the project chain is protected and paid on time.</p>
+                            <p>Until then, you can still use MidPay for your client payments while managing subcontractors through your existing processes. Many contractors find that the improved cash flow from using MidPay with clients enables them to pay their subcontractors more promptly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- For Homeowners FAQs -->
+            <div class="faq-content" id="homeowners-tab" style="display: none;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How does MidPay protect me as a homeowner?</div>
+                        <div class="accordion-content">
+                            <p>MidPay protects homeowners in several important ways:</p>
+                            <ul>
+                                <li><strong>Payment Security:</strong> Your funds are held in secure, FDIC-insured escrow accounts and only released when work is completed to your satisfaction.</li>
+                                <li><strong>Milestone-Based Payments:</strong> Instead of large upfront payments or lump sums, you pay incrementally as specific phases of work are completed.</li>
+                                <li><strong>Verification Process:</strong> You review and approve completed work before payment is released, ensuring you only pay for quality results.</li>
+                                <li><strong>Contractor Verification:</strong> All contractors on MidPay undergo a verification process to confirm their credentials and business information.</li>
+                                <li><strong>Dispute Resolution:</strong> If issues arise, our platform provides a structured process for resolving disputes fairly and efficiently.</li>
+                            </ul>
+                            <p>These protections help prevent common issues like abandoned projects, substandard work, and payment disputes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Does MidPay cost anything for homeowners?</div>
+                        <div class="accordion-content">
+                            <p>No, MidPay is completely free for homeowners to use. There are no fees, subscription costs, or hidden charges for homeowners. You only pay the agreed-upon cost of your construction project, which is held in escrow and released to the contractor as milestones are completed.</p>
+                            <p>The contractor pays the MidPay fees as part of their business expenses, similar to how they would pay for other business services.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What if I'm not satisfied with the completed work?</div>
+                        <div class="accordion-content">
+                            <p>If you're not satisfied with completed work, you can decline to approve the milestone and provide specific feedback about what needs to be corrected. The contractor will then have the opportunity to address the issues before requesting approval again.</p>
+                            <p>If a resolution can't be reached directly, MidPay's Proactive Milestone Communication team will help mediate the situation. Our dedicated team will contact both parties to understand the concerns, facilitate communication, and help reach a resolution. This personal approach ensures that issues are addressed promptly and fairly.</p>
+                            <p>The funds remain in escrow until all concerns are resolved, ensuring your investment is protected throughout the process.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How do I find a contractor who uses MidPay?</div>
+                        <div class="accordion-content">
+                            <p>After our launch in April 2025, you'll be able to search our directory of verified MidPay contractors in your area. You can filter by specialty, view ratings and reviews from other homeowners, and contact contractors directly through the platform.</p>
+                            <p>If you already have a contractor in mind who doesn't use MidPay, you can invite them to join the platform. Many contractors are open to using MidPay when they understand the benefits it provides for both parties.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What happens if my project changes after it's started?</div>
+                        <div class="accordion-content">
+                            <p>Construction projects often evolve, and MidPay is designed to accommodate changes. If your project scope changes after it's started, your contractor can create a change order within the platform. This will outline the additional work, associated costs, and any timeline adjustments.</p>
+                            <p>You'll review and approve the change order, and then fund any additional amount to the escrow account. The change order becomes part of the project agreement, with its own milestones and payment schedule if needed.</p>
+                            <p>This process ensures that all changes are documented, agreed upon, and properly funded, preventing misunderstandings and disputes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How do I know my money is safe in escrow?</div>
+                        <div class="accordion-content">
+                            <p>Your funds are held in FDIC-insured escrow accounts with bank-level security. MidPay partners with established financial institutions to ensure the highest level of protection for your money.</p>
+                            <p>You can view the status of your escrow account at any time through the MidPay platform, seeing exactly how much has been funded, released, and remains in escrow. The platform provides complete transparency throughout the process.</p>
+                            <p>MidPay never commingles client funds with operating accounts, and all escrow transactions are subject to strict financial regulations and regular audits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Payments & Escrow FAQs -->
+            <div class="faq-content" id="payments-tab" style="display: none;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How does the escrow process work?</div>
+                        <div class="accordion-content">
+                            <p>The MidPay escrow process works in these steps:</p>
+                            <ol>
+                                <li>The contractor creates a project agreement with defined milestones and payment amounts.</li>
+                                <li>The homeowner reviews and approves the agreement.</li>
+                                <li>The homeowner funds the escrow account via ACH transfer, credit card, or wire transfer.</li>
+                                <li>Funds are held in a secure, FDIC-insured escrow account.</li>
+                                <li>As the contractor completes each milestone, they submit verification (photos, videos, inspection documents).</li>
+                                <li>The homeowner reviews the completed work and approves the milestone.</li>
+                                <li>Upon approval, funds for that milestone are released from escrow to the contractor within 24 hours.</li>
+                                <li>This process repeats for each milestone until the project is complete.</li>
+                            </ol>
+                            <p>This structured approach ensures that funds are secure, work is verified, and payments are released promptly for completed milestones.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What payment methods can be used to fund escrow?</div>
+                        <div class="accordion-content">
+                            <p>Homeowners can fund their escrow accounts using several payment methods:</p>
+                            <ul>
+                                <li><strong>ACH Bank Transfer:</strong> Direct transfer from a bank account (no fee)</li>
+                                <li><strong>Credit/Debit Card:</strong> Visa, Mastercard, American Express, Discover (3% processing fee)</li>
+                                <li><strong>Wire Transfer:</strong> For larger projects or international payments (varies by bank)</li>
+                            </ul>
+                            <p>For larger projects, we recommend ACH or wire transfers to minimize processing fees. The platform will guide you through the funding process and provide clear information about any applicable fees.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How are milestone payments structured?</div>
+                        <div class="accordion-content">
+                            <p>Milestone payments are structured based on the specific phases of your construction project. The contractor will define these milestones in the project agreement, typically following industry-standard project phases.</p>
+                            <p>For example, a kitchen remodel might have these milestones:</p>
+                            <ol>
+                                <li>Demolition and preparation (15% of total)</li>
+                                <li>Rough plumbing and electrical (20% of total)</li>
+                                <li>Cabinets and countertops (30% of total)</li>
+                                <li>Appliance installation (20% of total)</li>
+                                <li>Final touches and cleanup (15% of total)</li>
+                            </ol>
+                            <p>Each milestone has a specific dollar amount assigned to it, and funds are released incrementally as each milestone is completed and verified. This approach ensures that payment is aligned with project progress.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What happens to the money while it's in escrow?</div>
+                        <div class="accordion-content">
+                            <p>While your funds are in escrow, they are held in FDIC-insured accounts separate from MidPay's operating funds. The money remains secure and untouched until milestone completion is verified and approved.</p>
+                            <p>Escrow funds do not earn interest, as they are held in non-interest-bearing accounts to comply with escrow regulations. This ensures that the exact amount funded is available for release to the contractor upon milestone completion.</p>
+                            <p>You can view the status of your escrow account at any time through the MidPay platform, seeing exactly how much has been funded, released, and remains in escrow.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Can I get a refund if my project is cancelled?</div>
+                        <div class="accordion-content">
+                            <p>Yes, if a project is cancelled before all milestones are completed, any remaining funds in escrow will be returned to the homeowner. The refund process is as follows:</p>
+                            <ol>
+                                <li>Either party can initiate a project cancellation through the platform.</li>
+                                <li>Both parties must agree to the cancellation terms, including which milestones have been completed and which remain unfinished.</li>
+                                <li>Funds for completed and approved milestones remain with the contractor.</li>
+                                <li>Funds for incomplete milestones are returned to the homeowner within 5 business days.</li>
+                                <li>If there's a dispute about cancellation terms, our dispute resolution process will help reach a fair solution.</li>
+                            </ol>
+                            <p>This process ensures that contractors are paid for work they've completed while homeowners receive refunds for work that hasn't been done.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How do contractors receive their payments?</div>
+                        <div class="accordion-content">
+                            <p>Contractors receive payments through their preferred payout method, which they set up when creating their MidPay account. Available payout options include:</p>
+                            <ul>
+                                <li><strong>Direct Deposit (ACH):</strong> Funds transferred directly to the contractor's bank account (1-2 business days)</li>
+                                <li><strong>Instant Deposit:</strong> Immediate transfer to a linked debit card (1% fee, $10 maximum)</li>
+                                <li><strong>MidPay Balance:</strong> Funds held in the contractor's MidPay account for future use or later withdrawal</li>
+                            </ul>
+                            <p>Once a milestone is approved, the funds are released from escrow and processed according to the contractor's chosen payout method. Standard transfers typically take 1-2 business days to appear in the contractor's bank account.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Disputes & Resolution FAQs -->
+            <div class="faq-content" id="disputes-tab" style="display: none;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What happens if there's a dispute about completed work?</div>
+                        <div class="accordion-content">
+                            <p>MidPay prevents disputes through our Proactive Milestone Communication system:</p>
+                            <ol>
+                                <li>When a contractor marks a milestone as complete, our team contacts the homeowner directly</li>
+                                <li>We verify the work has been completed to the homeowner's satisfaction</li>
+                                <li>Any concerns are addressed immediately before payment is released</li>
+                                <li>This creates a documented approval history throughout the project</li>
+                                <li>Both parties receive confirmation of milestone completion and payment release</li>
+                            </ol>
+                            <p>If a concern arises during our milestone verification call:</p>
+                            <ol>
+                                <li>We document the specific issue in detail</li>
+                                <li>The contractor is immediately notified with clear feedback</li>
+                                <li>The homeowner and contractor can discuss the concern through our platform</li>
+                                <li>Our team facilitates communication to reach a resolution</li>
+                                <li>Once resolved, we verify the fix with the homeowner before releasing payment</li>
+                            </ol>
+                            <p>This real-time intervention prevents small concerns from escalating into major disputes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How does MidPay's Proactive Milestone Communication work?</div>
+                        <div class="accordion-content">
+                            <p>Our milestone verification process is designed to be efficient while ensuring quality:</p>
+                            <ol>
+                                <li>Contractors notify us when a milestone is complete through the platform</li>
+                                <li>Our dedicated team contacts the homeowner within 24 hours</li>
+                                <li>We conduct a thorough verification call to confirm satisfaction with the completed work</li>
+                                <li>We document all feedback, both positive and areas of concern</li>
+                                <li>If the homeowner is satisfied, payment is released within 24 hours</li>
+                                <li>If concerns arise, we facilitate immediate communication between both parties</li>
+                            </ol>
+                            <p>This human-centered approach ensures real-time verification and communication at each milestone, preventing issues from accumulating until the end of the project. Our team has construction expertise and can help both parties communicate effectively about technical aspects of the work.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What types of issues does MidPay's communication approach prevent?</div>
+                        <div class="accordion-content">
+                            <p>MidPay's Proactive Milestone Communication prevents various construction-related issues, including:</p>
+                            <ul>
+                                <li><strong>Quality Concerns:</strong> Identifying and addressing quality issues immediately rather than at project completion</li>
+                                <li><strong>Scope Misunderstandings:</strong> Clarifying what was included in each milestone before payment release</li>
+                                <li><strong>Timeline Expectations:</strong> Setting clear expectations about completion timing for each phase</li>
+                                <li><strong>Material Verification:</strong> Confirming materials used match what was specified in the contract</li>
+                                <li><strong>Change Order Clarity:</strong> Ensuring both parties understand and agree to any modifications</li>
+                                <li><strong>Completion Verification:</strong> Confirming when a milestone is truly complete to everyone's satisfaction</li>
+                            </ul>
+                            <p>By addressing these issues at each milestone rather than at project end, we prevent them from becoming disputes that require resolution. This proactive approach saves time, reduces stress, and maintains positive working relationships throughout the project.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How long does the milestone verification process take?</div>
+                        <div class="accordion-content">
+                            <p>Our milestone verification process is designed to be efficient while ensuring quality:</p>
+                            <ul>
+                                <li><strong>Initial Contact:</strong> We contact the homeowner within 24 hours of the contractor marking a milestone complete</li>
+                                <li><strong>Verification Call:</strong> The verification call typically takes 15-20 minutes</li>
+                                <li><strong>Payment Release:</strong> Upon homeowner verification, payment is released within 24 hours</li>
+                                <li><strong>Issue Resolution:</strong> If concerns arise, our team works to facilitate resolution immediately</li>
+                            </ul>
+                            <p>The entire process typically takes 2-3 business days for straightforward milestones. Our goal is to balance thorough verification with prompt payment for completed work.</p>
+                            <p>Throughout the verification process, both parties receive real-time updates via the platform and email notifications, ensuring complete transparency at every step.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Is homeowner verification required for payment release?</div>
+                        <div class="accordion-content">
+                            <p>Yes, homeowner verification is a key part of our milestone payment process:</p>
+                            <ul>
+                                <li>When a contractor marks a milestone as complete, payment is not automatically released</li>
+                                <li>Our team contacts the homeowner to verify satisfaction with the completed work</li>
+                                <li>The homeowner must confirm that the work meets their expectations</li>
+                                <li>Only after this verification is payment released to the contractor</li>
+                            </ul>
+                            <p>This verification process creates accountability and ensures both parties are in agreement about the quality and completeness of work at each stage. It also creates a documented history of approvals that protects both homeowners and contractors.</p>
+                            <p>If a homeowner is unresponsive after multiple contact attempts, our team will conduct a review of the submitted documentation and may release payment after a reasonable waiting period, provided the work appears to meet the specifications outlined in the contract.</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What if I need to take legal action outside of MidPay?</div>
+                        <div class="accordion-content">
+                            <p>While MidPay's dispute resolution process is designed to resolve most issues without legal action, we recognize that some situations may require additional steps. If you need to pursue legal action outside of MidPay:</p>
+                            <ol>
+                                <li>You can request a complete record of all project documentation, communications, and dispute resolution attempts from the platform.</li>
+                                <li>This documentation can be provided to your legal representative as evidence.</li>
+                                <li>Funds that are in dispute will remain in escrow until directed by a court order or legal settlement.</li>
+                                <li>MidPay will comply with all valid legal orders regarding the disposition of escrow funds.</li>
+                            </ol>
+                            <p>Our terms of service include an arbitration clause, but this does not prevent users from pursuing claims in small claims court or reporting issues to appropriate government agencies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Account & Billing FAQs -->
+            <div class="faq-content" id="account-tab" style="display: none;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How do I create a MidPay account?</div>
+                        <div class="accordion-content">
+                            <p>Creating a MidPay account is simple:</p>
+                            <ol>
+                                <li>Visit our Sign Up page and select whether you're a contractor or homeowner.</li>
+                                <li>Enter your email address and create a secure password.</li>
+                                <li>Verify your email address by clicking the link sent to your inbox.</li>
+                                <li>Complete your profile with your name, contact information, and location.</li>
+                                <li>If you're a contractor, you'll need to provide additional business information and verification documents.</li>
+                                <li>Set up your payment methods (contractors will set up payout methods, homeowners will set up funding methods).</li>
+                                <li>Review and accept the terms of service and privacy policy.</li>
+                                <li>Your account is now ready to use!</li>
+                            </ol>
+                            <p>The entire process typically takes less than 10 minutes. For contractors, the business verification process may take 1-2 business days to complete.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">What information do contractors need to provide for verification?</div>
+                        <div class="accordion-content">
+                            <p>To ensure the security of our platform, contractors need to provide the following information for verification:</p>
+                            <ul>
+                                <li><strong>Business Information:</strong> Legal business name, DBA (if applicable), business address, phone number, website</li>
+                                <li><strong>Business Identification:</strong> EIN or SSN (for sole proprietors), business license number</li>
+                                <li><strong>Contractor License:</strong> License number, state/jurisdiction, expiration date (if applicable to your trade and location)</li>
+                                <li><strong>Identity Verification:</strong> Photo ID (driver's license or passport)</li>
+                                <li><strong>Insurance Information:</strong> Proof of liability insurance and workers' compensation (if applicable)</li>
+                                <li><strong>Banking Information:</strong> For receiving payments (account and routing numbers)</li>
+                            </ul>
+                            <p>This verification process helps build trust with homeowners and ensures that all contractors on the platform are legitimate businesses. The verification typically takes 1-2 business days to complete.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Can I switch between pricing plans?</div>
+                        <div class="accordion-content">
+                            <p>Yes, contractors can switch between the Premium Plan and Free Plan at any time through their account settings. When switching plans:</p>
+                            <ul>
+                                <li><strong>Free to Premium:</strong> The change takes effect immediately, and you'll be billed the monthly fee right away. You'll immediately gain access to all Premium features, and the 2% escrow fee will apply to all new projects.</li>
+                                <li><strong>Premium to Free:</strong> The change takes effect at the end of your current billing cycle. You'll maintain Premium features until that date, after which you'll move to the Free Plan with the 5% escrow fee for new projects.</li>
+                            </ul>
+                            <p>Existing projects will maintain the escrow fee rate that was in effect when the project was created, regardless of plan changes. This ensures consistency throughout the project lifecycle.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How is billing handled for contractors?</div>
+                        <div class="accordion-content">
+                            <p>Billing for contractors depends on your chosen plan:</p>
+                            <ul>
+                                <li><strong>Premium Plan ($199/month):</strong> You'll be billed monthly on the anniversary of your sign-up date. Payment is automatically charged to your preferred payment method (credit card or ACH).</li>
+                                <li><strong>Free Plan (no monthly fee):</strong> There's no monthly billing. The 5% escrow fee is automatically deducted from each milestone payment as it's released from escrow.</li>
+                            </ul>
+                            <p>For both plans, you'll receive detailed invoices and payment receipts via email and in your account dashboard. You can view your billing history, update payment methods, and download statements for accounting purposes at any time.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">How do I cancel my MidPay account?</div>
+                        <div class="accordion-content">
+                            <p>You can cancel your MidPay account at any time through your account settings. The cancellation process varies slightly depending on your user type:</p>
+                            <p><strong>For Contractors:</strong></p>
+                            <ol>
+                                <li>Complete all active projects or transfer them to another payment method.</li>
+                                <li>Go to Account Settings and select "Cancel Account."</li>
+                                <li>Select your reason for cancellation (this helps us improve our service).</li>
+                                <li>Confirm cancellation.</li>
+                            </ol>
+                            <p>If you're on the Premium Plan, cancellation takes effect at the end of your current billing cycle. Any escrow fees for completed milestones are non-refundable.</p>
+                            <p><strong>For Homeowners:</strong></p>
+                            <ol>
+                                <li>Ensure all projects are completed or cancelled, with appropriate fund disbursement.</li>
+                                <li>Go to Account Settings and select "Cancel Account."</li>
+                                <li>Select your reason for cancellation.</li>
+                                <li>Confirm cancellation.</li>
+                            </ol>
+                            <p>Account data is retained for a period of time in accordance with our data retention policy, but personal information is anonymized upon cancellation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion animate-on-scroll">
+                        <div class="accordion-header">Is there a mobile app for MidPay?</div>
+                        <div class="accordion-content">
+                            <p>Yes, MidPay will offer mobile apps for both iOS and Android devices, launching simultaneously with our platform in April 2025. The mobile apps will provide all the functionality of the web platform, optimized for on-the-go use.</p>
+                            <p>Key features of the mobile apps include:</p>
+                            <ul>
+                                <li>Creating and managing projects</li>
+                                <li>Submitting milestone verification directly from your phone's camera</li>
+                                <li>Reviewing and approving milestones</li>
+                                <li>Managing escrow accounts and payments</li>
+                                <li>Real-time notifications for project updates</li>
+                                <li>Secure messaging between contractors and homeowners</li>
+                            </ul>
+                            <p>The mobile apps are particularly valuable for contractors who need to document work and manage projects while on job sites. Homeowners can also easily track progress and approve milestones without being at their computer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search FAQ Section -->
+    <section class="section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>SEARCH FAQs</h2>
+                <p>Can't find what you're looking for? Search our knowledge base.</p>
+            </div>
+            
+            <div style="max-width: 600px; margin: 3rem auto 0;" class="animate-on-scroll">
+                <form id="faq-search-form" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                    <input type="text" placeholder="Search for answers..." style="flex: 1; min-width: 200px; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Still Have Questions Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>STILL HAVE QUESTIONS?</h2>
+                <p>We're here to help. Reach out to our support team.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem;">
+                <div style="background-color: var(--light); padding: 2rem; border-radius: 8px; text-align: center;" class="animate-on-scroll">
+                    <div style="width: 80px; height: 80px; background-color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Email Support</h3>
+                    <p style="margin-bottom: 1.5rem;">Send us an email and we'll respond within 24 hours during business days.</p>
+                    <a href="mailto:support@midpay.ai" style="color: var(--primary); font-weight: 600; font-size: 1.1rem;">support@midpay.ai</a>
+                </div>
+                
+                <div style="background-color: var(--light); padding: 2rem; border-radius: 8px; text-align: center;" class="animate-on-scroll">
+                    <div style="width: 80px; height: 80px; background-color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Phone Support</h3>
+                    <p style="margin-bottom: 1.5rem;">Speak directly with our team Monday through Friday, 9am to 5pm EST.</p>
+                    <a href="tel:+12018447662" style="color: var(--primary); font-weight: 600; font-size: 1.1rem;">(201) 844-7662</a>
+                </div>
+                
+                <div style="background-color: var(--light); padding: 2rem; border-radius: 8px; text-align: center;" class="animate-on-scroll">
+                    <div style="width: 80px; height: 80px; background-color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Live Chat</h3>
+                    <p style="margin-bottom: 1.5rem;">Chat with our support team in real-time during business hours.</p>
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="animate-on-scroll">
+                <h2>READY TO SECURE YOUR PAYMENTS?</h2>
+                <p>Join our waitlist today and be among the first contractors to experience our secure payment platform. Early access available April 2025.</p>
+                
+                <div class="cta-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Get Early Access</button>
+                </div>
+                
+                <p style="margin-top: 1rem; font-size: 0.9rem;">Limited to the first 50 contractors. Early adopters receive 3 months of Premium Plan at no monthly cost.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>About MidPay</h4>
+                    <p>MidPay revolutionizes the way construction contractors and homeowners handle their projects. By integrating escrow, we ensure funds are safely held and only released upon the successful completion of agreed-upon milestones.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="benefits.html">Benefits</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> info@midpay.ai</p>
+                    <p><i class="fas fa-phone"></i> (201) 844-7662</p>
+                    <p><i class="fas fa-globe"></i> www.midpay.ai</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MidPay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // FAQ tab functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqTabs = document.querySelectorAll('.faq-tab');
+            const faqContents = document.querySelectorAll('.faq-content');
+            
+            faqTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    faqTabs.forEach(t => {
+                        t.classList.remove('active');
+                        t.style.background = 'transparent';
+                        t.style.color = 'var(--secondary)';
+                    });
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    this.style.background = 'var(--primary)';
+                    this.style.color = 'white';
+                    
+                    // Hide all tab contents
+                    faqContents.forEach(content => {
+                        content.style.display = 'none';
+                    });
+                    
+                    // Show the selected tab content
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId + '-tab').style.display = 'block';
+                    
+                    // Scroll to top of content area
+                    document.getElementById(tabId + '-tab').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            });
+            
+            // FAQ search form submission
+            const faqSearchForm = document.getElementById('faq-search-form');
+            if (faqSearchForm) {
+                faqSearchForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // In a real implementation, this would search the FAQs
+                    // For now, we'll just show an alert
+                    alert('Search functionality will be available when the platform launches in April 2025.');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

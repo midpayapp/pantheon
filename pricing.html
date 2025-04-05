@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MidPay - Pricing Plans for Construction Contractors</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container" style="display: flex; align-items: center;">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/dark-midtype.png" alt="MidPay Logo" height="45px">
+                </a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="nav-menu" style="display: flex; align-items: center; margin: 0;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="how-it-works.html">How It Works</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="pricing.html" class="active">Pricing</a></li>
+                    <li><a href="signup.html" class="btn btn-primary">Join Waitlist</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>SIMPLE, TRANSPARENT PRICING</h1>
+                <p>Choose the plan that works best for your construction business. Our pricing is designed to deliver maximum value while ensuring your payments are secure.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/process-overview.jpeg" alt="MidPay process overview">  
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans Section -->
+    <section class="section pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>PRICING THAT PAYS FOR ITSELF</h2>
+                <p>Our pricing structure is designed to deliver maximum value while ensuring your payments are secure.</p>
+            </div>
+            
+            <div class="pricing-plans">
+                <div class="pricing-plan featured">
+                    <div class="plan-name">Premium Plan</div>
+                    <div class="plan-price">$199/month</div>
+                    <p>Full access to our secure payment infrastructure, optimizing costs for high-volume transactions.</p>
+                    <ul class="plan-features">
+                        <li>2% escrow fee per project</li>
+                        <li>Unlimited projects and clients</li>
+                        <li>Full feature access including dispute resolution</li>
+                        <li>CRM integrations</li>
+                        <li>Priority support</li>
+                        <li>Contractor verification badge</li>
+                        <li>Custom milestone templates</li>
+                        <li>Advanced reporting and analytics</li>
+                    </ul>
+                    <div style="text-align: center; margin-top: 1.5rem;">
+                        <a href="signup.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #ccc;">Best for established contractors with regular projects</p>
+                </div>
+                
+                <div class="pricing-plan">
+                    <div class="plan-name">Free Plan</div>
+                    <div class="plan-price">$0/month</div>
+                    <p>A no-commitment plan perfect for those who need secure payments without a monthly fee.</p>
+                    <ul class="plan-features">
+                        <li>5% escrow fee per project</li>
+                        <li>Unlimited projects and clients</li>
+                        <li>Basic features</li>
+                        <li>Email support</li>
+                        <li>Standard verification process</li>
+                        <li>Standard milestone templates</li>
+                        <li>Basic reporting</li>
+                    </ul>
+                    <div style="text-align: center; margin-top: 1.5rem;">
+                        <a href="signup.html" class="btn btn-outline">Get Started</a>
+                    </div>
+                    <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #666;">Perfect for new contractors or occasional projects</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <p>Not sure which plan is right for you? <a href="contact.html">Contact us</a> for a personalized recommendation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator Section -->
+    <section class="section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title">
+                <h2>SEE HOW QUICKLY MIDPAY PAYS FOR ITSELF</h2>
+                <p>Calculate your return on investment based on your monthly project value.</p>
+            </div>
+            
+            <div class="roi-calculator" style="margin-top: 3rem; padding: 2rem; background-color: white; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);">
+                <h3 style="margin-bottom: 1.5rem;">Monthly ROI Calculator</h3>
+                
+                <div style="overflow-x: auto;">
+                    <table class="roi-table" style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
+                        <thead>
+                            <tr>
+                                <th>Monthly Project Value</th>
+                                <th>Without MidPay</th>
+                                <th>With MidPay Premium</th>
+                                <th>Monthly Savings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>$10,000</td>
+                                <td>$1,250*</td>
+                                <td>$399 ($199 + $200 fees)</td>
+                                <td>$851</td>
+                            </tr>
+                            <tr>
+                                <td>$20,000</td>
+                                <td>$2,500*</td>
+                                <td>$599 ($199 + $400 fees)</td>
+                                <td>$1,901</td>
+                            </tr>
+                            <tr>
+                                <td>$50,000</td>
+                                <td>$6,250*</td>
+                                <td>$1,199 ($199 + $1,000 fees)</td>
+                                <td>$5,051</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <p style="font-size: 0.9rem; color: #666;">*Based on industry averages: 5% of payments requiring liens ($500/month for $10k), 10 hours chasing payments ($500 value), and 2.5% non-payment risk.</p>
+                
+                <div style="margin-top: 2rem; padding: 1.5rem; background-color: var(--light); border-radius: 8px;">
+                    <h4 style="margin-bottom: 1rem;">Custom ROI Calculator</h4>
+                    <p style="margin-bottom: 1.5rem;">Enter your monthly project value to see your potential savings:</p>
+                    
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <label for="monthly-value" style="margin-right: 1rem; font-weight: 600;">Monthly Project Value: $</label>
+                        <input type="number" id="monthly-value" style="padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; width: 150px;" placeholder="20000">
+                        <button id="calculate-roi" style="margin-left: 1rem; padding: 0.5rem 1rem; background-color: var(--primary); color: white; border: none; border-radius: 4px; cursor: pointer;">Calculate</button>
+                    </div>
+                    
+                    <div id="roi-result" style="display: none; padding: 1.5rem; background-color: white; border-radius: 8px; margin-top: 1.5rem;">
+                        <h5 style="margin-bottom: 1rem;">Your Estimated Monthly Savings:</h5>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span>Cost without MidPay:</span>
+                            <span id="cost-without">$2,500</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span>Cost with MidPay Premium:</span>
+                            <span id="cost-with">$599</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; padding-top: 0.5rem; border-top: 1px solid #eee; font-weight: 600; color: var(--success);">
+                            <span>Your Monthly Savings:</span>
+                            <span id="monthly-savings">$1,901</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; padding-top: 0.5rem; margin-top: 0.5rem; border-top: 1px solid #eee; font-weight: 600; color: var(--success);">
+                            <span>Your Annual Savings:</span>
+                            <span id="annual-savings">$22,812</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Early Adopter Section -->
+    <section class="section" style="background-color: var(--accent); color: white;">
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="color: white; margin-bottom: 1.5rem;">EARLY ADOPTER SPECIAL OFFER</h2>
+                <p style="margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">Join our waitlist today and receive exclusive benefits available only to our first 50 contractors.</p>
+                
+                <div style="display: inline-block; padding: 0.5rem 1.5rem; background-color: white; color: var(--accent); border-radius: 50px; font-weight: 600; margin-bottom: 2rem;">Beta Launch: April 2025</div>
+                
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; text-align: left; max-width: 800px; margin: 0 auto;">
+                    <div style="background-color: rgba(255, 255, 255, 0.1); padding: 1.5rem; border-radius: 8px;">
+                        <h4 style="color: white; margin-bottom: 1rem;">3 Months Premium at No Monthly Cost</h4>
+                        <p>Get all the benefits of our Premium Plan while only paying the 2% escrow fee for your first three months.</p>
+                    </div>
+                    
+                    <div style="background-color: rgba(255, 255, 255, 0.1); padding: 1.5rem; border-radius: 8px;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Free Onboarding Assistance</h4>
+                        <p>Our team will help you set up your account, create your first project, and train your team on using the platform.</p>
+                    </div>
+                    
+                    <div style="background-color: rgba(255, 255, 255, 0.1); padding: 1.5rem; border-radius: 8px;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Input into Feature Development</h4>
+                        <p>Early adopters will have direct input into our feature roadmap, helping shape the platform to meet your specific needs.</p>
+                    </div>
+                    
+                    <div style="background-color: rgba(255, 255, 255, 0.1); padding: 1.5rem; border-radius: 8px;">
+                        <h4 style="color: white; margin-bottom: 1rem;">Featured Contractor Status</h4>
+                        <p>Get highlighted as a featured contractor in your area, increasing your visibility to potential clients using our platform.</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 3rem;">
+                    <a href="signup.html" class="btn" style="background-color: white; color: var(--accent); font-size: 1.1rem; padding: 1rem 2rem;">Secure Your Early Access Spot</a>
+                    <p style="margin-top: 1rem; font-size: 0.9rem;">Limited to the first 50 contractors who sign up</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>FREQUENTLY ASKED QUESTIONS</h2>
+                <p>Common questions about MidPay's pricing and payment structure.</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 3rem auto 0;">
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background-color: var(--light); border-radius: 8px;">
+                    <h4 style="margin-bottom: 0.5rem; color: var(--secondary);">Are there any hidden fees?</h4>
+                    <p style="margin-bottom: 0;">No. MidPay's pricing is completely transparent. You pay either the monthly subscription fee plus the escrow fee percentage, or just the higher escrow fee percentage with the free plan. There are no setup fees, cancellation fees, or other hidden charges.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background-color: var(--light); border-radius: 8px;">
+                    <h4 style="margin-bottom: 0.5rem; color: var(--secondary);">How is the escrow fee calculated?</h4>
+                    <p style="margin-bottom: 0;">The escrow fee is calculated as a percentage of the total project value. For example, if you're on the Premium Plan with a 2% escrow fee and your project is worth $10,000, the escrow fee would be $200.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background-color: var(--light); border-radius: 8px;">
+                    <h4 style="margin-bottom: 0.5rem; color: var(--secondary);">Who pays the escrow fee?</h4>
+                    <p style="margin-bottom: 0;">The escrow fee is paid by the contractor (you). However, many contractors choose to build this fee into their project quotes, effectively passing the cost to the client while still offering the security and peace of mind that comes with MidPay.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background-color: var(--light); border-radius: 8px;">
+                    <h4 style="margin-bottom: 0.5rem; color: var(--secondary);">Can I switch between plans?</h4>
+                    <p style="margin-bottom: 0;">Yes, you can upgrade or downgrade your plan at any time. If you upgrade mid-month, we'll prorate the difference. If you downgrade, the change will take effect at the start of your next billing cycle.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem; padding: 1.5rem; background-color: var(--light); border-radius: 8px;">
+                    <h4 style="margin-bottom: 0.5rem; color: var(--secondary);">Is there a contract or commitment?</h4>
+                    <p style="margin-bottom: 0;">No, MidPay is offered on a month-to-month basis with no long-term commitment required. You can cancel at any time.</p>
+                </div>
+                
+                <div style="padding: 1.5rem; background-color: var(--light); border-radius: 8px;">
+                    <h4 style="margin-bottom: 0.5rem; color: var(--secondary);">Do you offer discounts for annual payment?</h4>
+                    <p style="margin-bottom: 0;">Yes, we offer a 15% discount when you pay annually for the Premium Plan. This option will be available after our beta launch period.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <h2>READY TO SECURE YOUR CONSTRUCTION PAYMENTS?</h2>
+            <p>Join our waitlist today and be among the first contractors to experience our secure payment platform. Early access available April 2025.</p>
+            
+            <div class="cta-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Get Early Access</button>
+            </div>
+            
+            <p style="margin-top: 1rem; font-size: 0.9rem;">Limited to the first 50 contractors. Early adopters receive 3 months of Premium Plan at no monthly cost.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>About MidPay</h4>
+                    <p>MidPay revolutionizes the way construction contractors and homeowners handle their projects. By integrating escrow, we ensure funds are safely held and only released upon the successful completion of agreed-upon milestones.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="benefits.html">Benefits</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> info@midpay.ai</p>
+                    <p><i class="fas fa-phone"></i> (201) 844-7662</p>
+                    <p><i class="fas fa-globe"></i> www.midpay.ai</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MidPay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.getElementById('nav-menu').classList.toggle('show');
+        });
+        
+        // ROI Calculator
+        document.getElementById('calculate-roi').addEventListener('click', function() {
+            const monthlyValue = parseFloat(document.getElementById('monthly-value').value) || 20000;
+            
+            // Calculate costs and savings
+            const costWithout = monthlyValue * 0.125; // 12.5% of monthly value
+            const escrowFee = monthlyValue * 0.02; // 2% escrow fee
+            const costWith = 199 + escrowFee; // $199 monthly fee + escrow fee
+            const monthlySavings = costWithout - costWith;
+            const annualSavings = monthlySavings * 12;
+            
+            // Update the result display
+            document.getElementById('cost-without').textContent = '$' + costWithout.toLocaleString();
+            document.getElementById('cost-with').textContent = '$' + costWith.toLocaleString();
+            document.getElementById('monthly-savings').textContent = '$' + monthlySavings.toLocaleString();
+            document.getElementById('annual-savings').textContent = '$' + annualSavings.toLocaleString();
+            
+            // Show the result
+            document.getElementById('roi-result').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

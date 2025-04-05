@@ -1,0 +1,166 @@
+/* CSS for animation effects */
+
+/* Base animation styles */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.animated {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animations for grid items */
+.features-grid .animate-on-scroll:nth-child(1),
+.benefits-grid .animate-on-scroll:nth-child(1),
+.testimonials-grid .animate-on-scroll:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.features-grid .animate-on-scroll:nth-child(2),
+.benefits-grid .animate-on-scroll:nth-child(2),
+.testimonials-grid .animate-on-scroll:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.features-grid .animate-on-scroll:nth-child(3),
+.benefits-grid .animate-on-scroll:nth-child(3),
+.testimonials-grid .animate-on-scroll:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.features-grid .animate-on-scroll:nth-child(4),
+.benefits-grid .animate-on-scroll:nth-child(4),
+.testimonials-grid .animate-on-scroll:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+/* Process steps animation */
+.process-steps .animate-on-scroll:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.process-steps .animate-on-scroll:nth-child(2) {
+  transition-delay: 0.3s;
+}
+
+.process-steps .animate-on-scroll:nth-child(3) {
+  transition-delay: 0.5s;
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide in animations */
+.slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Accordion animation */
+.accordion-header {
+  padding: 1rem;
+  background-color: var(--light);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:after {
+  content: '+';
+  font-size: 1.5rem;
+  color: var(--primary);
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+.accordion-header.active:after {
+  content: '-';
+  color: white;
+}
+
+.accordion-content {
+  padding: 0 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  margin-bottom: 1rem;
+  background-color: var(--light);
+  border-radius: 0 0 4px 4px;
+}
+
+.accordion-content.active {
+  padding: 1rem;
+  max-height: 500px;
+}
+
+/* Disable animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll {
+    opacity: 1;
+    transform: translateY(0);
+    transition: none;
+  }
+  
+  .animate-on-scroll.animated {
+    transition: none;
+  }
+  
+  .fade-in,
+  .slide-in-left,
+  .slide-in-right {
+    animation: none;
+    opacity: 1;
+  }
+  
+  .accordion-header,
+  .accordion-content {
+    transition: none;
+  }
+}

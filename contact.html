@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MidPay - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container" style="display: flex; align-items: center;">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/dark-midtype.png" alt="MidPay Logo" height="45px">
+                </a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="nav-menu" style="display: flex; align-items: center; margin: 0;">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="how-it-works.html">How It Works</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="signup.html" class="btn btn-primary">Join Waitlist</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content animate-on-scroll">
+                <h1>GET IN TOUCH WITH MIDPAY</h1>
+                <p>Have questions about how MidPay can secure payments for your construction business? Our team is here to help. Reach out to us through any of the methods below.</p>
+            </div>
+            <div class="hero-image animate-on-scroll">
+                <img src="images/contact-hero.jpg" alt="MidPay customer support team" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%22500%22 height%3D%22300%22 viewBox%3D%220 0 500 300%22%3E%3Crect fill%3D%22%23f5f9ff%22 width%3D%22500%22 height%3D%22300%22%2F%3E%3Ctext fill%3D%22%23666%22 font-family%3D%22sans-serif%22 font-size%3D%2220%22 dy%3D%22.35em%22 text-anchor%3D%22middle%22 x%3D%22250%22 y%3D%22150%22%3EMidPay customer support team%3C%2Ftext%3E%3C%2Fsvg%3E'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Options Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>CONTACT OPTIONS</h2>
+                <p>Choose the method that works best for you.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem;">
+                <div style="background-color: var(--light); padding: 2rem; border-radius: 8px; text-align: center;" class="animate-on-scroll">
+                    <div style="width: 80px; height: 80px; background-color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Email Us</h3>
+                    <p style="margin-bottom: 1.5rem;">Send us an email and we'll respond within 24 hours during business days.</p>
+                    <a href="mailto:info@midpay.ai" style="color: var(--primary); font-weight: 600; font-size: 1.1rem;">info@midpay.ai</a>
+                </div>
+                
+                <div style="background-color: var(--light); padding: 2rem; border-radius: 8px; text-align: center;" class="animate-on-scroll">
+                    <div style="width: 80px; height: 80px; background-color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Call Us</h3>
+                    <p style="margin-bottom: 1.5rem;">Speak directly with our team Monday through Friday, 9am to 5pm EST.</p>
+                    <a href="tel:+12018447662" style="color: var(--primary); font-weight: 600; font-size: 1.1rem;">(201) 844-7662</a>
+                </div>
+                
+                <div style="background-color: var(--light); padding: 2rem; border-radius: 8px; text-align: center;" class="animate-on-scroll">
+                    <div style="width: 80px; height: 80px; background-color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem;">Live Chat</h3>
+                    <p style="margin-bottom: 1.5rem;">Chat with our support team in real-time during business hours.</p>
+                    <button class="btn btn-primary" id="start-chat-btn">Start Chat</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>SEND US A MESSAGE</h2>
+                <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 3rem auto 0; background-color: white; padding: 2rem; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);" class="animate-on-scroll">
+                <form id="contact-form">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label for="first-name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">First Name*</label>
+                            <input type="text" id="first-name" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="last-name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Last Name*</label>
+                            <input type="text" id="last-name" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email Address*</label>
+                            <input type="email" id="email" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Phone Number</label>
+                            <input type="tel" id="phone" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="company" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Company Name</label>
+                        <input type="text" id="company" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="inquiry-type" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Inquiry Type*</label>
+                        <select id="inquiry-type" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                            <option value="">Select an option</option>
+                            <option value="general">General Information</option>
+                            <option value="demo">Request a Demo</option>
+                            <option value="pricing">Pricing Questions</option>
+                            <option value="support">Technical Support</option>
+                            <option value="partnership">Partnership Opportunities</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message*</label>
+                        <textarea id="message" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; height: 150px;"></textarea>
+                    </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: flex; align-items: flex-start; cursor: pointer;">
+                            <input type="checkbox" required style="margin-right: 0.5rem; margin-top: 0.3rem;">
+                            <span style="font-size: 0.9rem;">I agree to MidPay's <a href="privacy.html" style="color: var(--primary);">Privacy Policy</a> and consent to being contacted about my inquiry.*</span>
+                        </label>
+                    </div>
+                    
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-primary btn-lg">Submit Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>FREQUENTLY ASKED QUESTIONS</h2>
+                <p>Find quick answers to common questions about contacting MidPay.</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 3rem auto 0;">
+                <div class="accordion animate-on-scroll">
+                    <div class="accordion-header">What are your business hours?</div>
+                    <div class="accordion-content">
+                        <p>Our customer support team is available Monday through Friday from 9:00 AM to 5:00 PM Eastern Standard Time. Email inquiries received outside of business hours will be addressed on the next business day.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion animate-on-scroll">
+                    <div class="accordion-header">How quickly will I receive a response?</div>
+                    <div class="accordion-content">
+                        <p>We strive to respond to all inquiries within 24 business hours. For urgent matters, we recommend calling our support line at (201) 844-7662 during business hours for immediate assistance.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion animate-on-scroll">
+                    <div class="accordion-header">Can I schedule a demo of the MidPay platform?</div>
+                    <div class="accordion-content">
+                        <p>Yes! We offer personalized demos of the MidPay platform for contractors interested in learning more. You can request a demo through our contact form by selecting "Request a Demo" from the inquiry type dropdown, or by emailing demo@midpay.ai directly.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion animate-on-scroll">
+                    <div class="accordion-header">I'm a homeowner. Can I contact MidPay directly?</div>
+                    <div class="accordion-content">
+                        <p>Absolutely! While MidPay is designed primarily for contractors, we're happy to answer questions from homeowners about how our platform works. Feel free to reach out through any of our contact methods, and we'll provide information on how MidPay can benefit your construction projects.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion animate-on-scroll">
+                    <div class="accordion-header">Do you offer support for technical issues?</div>
+                    <div class="accordion-content">
+                        <p>Yes, our technical support team is available to assist with any platform-related issues. For the most efficient service, please provide detailed information about the problem you're experiencing, including any error messages and the steps that led to the issue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Location Section -->
+    <section class="section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>OUR OFFICE</h2>
+                <p>Visit our headquarters in New York City.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 3rem;" class="animate-on-scroll">
+                <div>
+                    <div style="background-color: #ddd; height: 400px; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <div style="color: #666;">Map of MidPay Headquarters</div>
+                    </div>
+                    <p style="text-align: center; font-size: 0.9rem;">Interactive map will be displayed here</p>
+                </div>
+                
+                <div>
+                    <h3 style="color: var(--primary); margin-bottom: 1.5rem;">MidPay Headquarters</h3>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="margin-bottom: 1rem;">Address</h4>
+                        <p style="margin-bottom: 0.5rem;">350 Fifth Avenue, 21st Floor</p>
+                        <p style="margin-bottom: 0.5rem;">New York, NY 10118</p>
+                        <p>United States</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="margin-bottom: 1rem;">Hours</h4>
+                        <p style="margin-bottom: 0.5rem;"><strong>Monday - Friday:</strong> 9:00 AM - 5:00 PM EST</p>
+                        <p style="margin-bottom: 0.5rem;"><strong>Saturday - Sunday:</strong> Closed</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="margin-bottom: 1rem;">Getting Here</h4>
+                        <p style="margin-bottom: 0.5rem;"><strong>By Subway:</strong> 34th St-Herald Square Station (B, D, F, M, N, Q, R, W lines)</p>
+                        <p style="margin-bottom: 0.5rem;"><strong>By Bus:</strong> M4, M5, M7, M34, M34A, Q32</p>
+                        <p><strong>Parking:</strong> Several parking garages available within a 2-block radius</p>
+                    </div>
+                    
+                    <div>
+                        <p style="margin-bottom: 1rem;"><strong>Note:</strong> Visits are by appointment only. Please contact us to schedule a meeting before visiting our office.</p>
+                        <a href="mailto:appointments@midpay.ai" class="btn btn-outline">Schedule an Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>CONNECT WITH US</h2>
+                <p>Follow MidPay on social media for the latest updates, tips, and industry insights.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 3rem;">
+                <a href="#" style="text-decoration: none;" class="animate-on-scroll">
+                    <div style="background-color: #1877F2; padding: 2rem; border-radius: 8px; text-align: center; color: white;">
+                        <i class="fab fa-facebook-f" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                        <h3 style="color: white; margin-bottom: 1rem;">Facebook</h3>
+                        <p style="margin-bottom: 0;">Follow us for daily tips and updates</p>
+                    </div>
+                </a>
+                
+                <a href="#" style="text-decoration: none;" class="animate-on-scroll">
+                    <div style="background-color: #1DA1F2; padding: 2rem; border-radius: 8px; text-align: center; color: white;">
+                        <i class="fab fa-twitter" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                        <h3 style="color: white; margin-bottom: 1rem;">Twitter</h3>
+                        <p style="margin-bottom: 0;">Join the conversation</p>
+                    </div>
+                </a>
+                
+                <a href="#" style="text-decoration: none;" class="animate-on-scroll">
+                    <div style="background-color: #0A66C2; padding: 2rem; border-radius: 8px; text-align: center; color: white;">
+                        <i class="fab fa-linkedin-in" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                        <h3 style="color: white; margin-bottom: 1rem;">LinkedIn</h3>
+                        <p style="margin-bottom: 0;">Professional updates and insights</p>
+                    </div>
+                </a>
+                
+                <a href="#" style="text-decoration: none;" class="animate-on-scroll">
+                    <div style="background-color: #E4405F; padding: 2rem; border-radius: 8px; text-align: center; color: white;">
+                        <i class="fab fa-instagram" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                        <h3 style="color: white; margin-bottom: 1rem;">Instagram</h3>
+                        <p style="margin-bottom: 0;">Behind the scenes and success stories</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>STAY UPDATED</h2>
+                <p>Subscribe to our newsletter for the latest news, updates, and industry insights.</p>
+            </div>
+            
+            <div style="max-width: 600px; margin: 3rem auto 0;" class="animate-on-scroll">
+                <form id="newsletter-form" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                    <input type="email" placeholder="Enter your email address" required style="flex: 1; min-width: 200px; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px;">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem;">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="animate-on-scroll">
+                <h2>READY TO SECURE YOUR PAYMENTS?</h2>
+                <p>Join our waitlist today and be among the first contractors to experience our secure payment platform. Early access available April 2025.</p>
+                
+                <div class="cta-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Get Early Access</button>
+                </div>
+                
+                <p style="margin-top: 1rem; font-size: 0.9rem;">Limited to the first 50 contractors. Early adopters receive 3 months of Premium Plan at no monthly cost.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>About MidPay</h4>
+                    <p>MidPay revolutionizes the way construction contractors and homeowners handle their projects. By integrating escrow, we ensure funds are safely held and only released upon the successful completion of agreed-upon milestones.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="benefits.html">Benefits</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> info@midpay.ai</p>
+                    <p><i class="fas fa-phone"></i> (201) 844-7662</p>
+                    <p><i class="fas fa-globe"></i> www.midpay.ai</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MidPay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Contact form submission
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // In a real implementation, this would send the form data to a server
+                    // For now, we'll just show a success message
+                    
+                    // Hide the form
+                    this.style.display = 'none';
+                    
+                    // Create and show success message
+                    const successMessage = document.createElement('div');
+                    successMessage.className = 'message success';
+                    successMessage.style.backgroundColor = '#4caf50';
+                    successMessage.style.color = 'white';
+                    successMessage.style.padding = '2rem';
+                    successMessage.style.borderRadius = '8px';
+                    successMessage.style.textAlign = 'center';
+                    
+                    successMessage.innerHTML = `
+                        <h3 style="color: white; margin-bottom: 1rem;">Message Sent Successfully!</h3>
+                        <p style="margin-bottom: 1.5rem;">Thank you for contacting MidPay. We've received your message and will get back to you within 24 business hours.</p>
+                        <p>If you have an urgent matter, please call us at (201) 844-7662 during business hours.</p>
+                    `;
+                    
+                    // Insert the success message where the form was
+                    this.parentNode.appendChild(successMessage);
+                });
+            }
+            
+            // Newsletter form submission
+            const newsletterForm = document.getElementById('newsletter-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // In a real implementation, this would send the form data to a server
+                    // For now, we'll just show a success message
+                    
+                    // Hide the form
+                    this.style.display = 'none';
+                    
+                    // Create and show success message
+                    const successMessage = document.createElement('div');
+                    successMessage.className = 'message success';
+                    successMessage.style.backgroundColor = '#4caf50';
+                    successMessage.style.color = 'white';
+                    successMessage.style.padding = '1.5rem';
+                    successMessage.style.borderRadius = '8px';
+                    successMessage.style.textAlign = 'center';
+                    
+                    successMessage.innerHTML = `
+                        <h3 style="color: white; margin-bottom: 0.5rem;">Subscription Confirmed!</h3>
+                        <p>You've been successfully subscribed to the MidPay newsletter.</p>
+                    `;
+                    
+                    // Insert the success message where the form was
+                    this.parentNode.appendChild(successMessage);
+                });
+            }
+            
+            // Live chat button
+            const startChatBtn = document.getElementById('start-chat-btn');
+            if (startChatBtn) {
+                startChatBtn.addEventListener('click', function() {
+                    alert('Live chat feature will be available when the platform launches in April 2025. Please contact us via email or phone in the meantime.');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
